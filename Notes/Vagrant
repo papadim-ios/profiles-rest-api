@@ -1,0 +1,9 @@
+4.3. Running and connecting to our dev server:
+
+vagrant init ubuntu/bionic64  
+
+vagrant up
+
+Start: vagrant ssh
+
+Stop: exit
