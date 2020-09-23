@@ -1,0 +1,17 @@
+Create: python -m venv ~/env
+
+Activate: source ~/env/bin/activate
+
+Deactivate: deactivate
+
+pip install -r requirements.txt
+
+Create django project:
+    django-admin.py startproject profiles_project .
+
+Create django app:
+    python manage.py startapp profiles_api
+
+
+Run python web server:
+python manage.py runserver 0.0.0.0:8000
