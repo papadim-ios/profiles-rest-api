@@ -1,0 +1,7 @@
+1. API View
+
+2. ViewSet
+    - Simple CRUD interface to your database
+    - Quick and simple API
+    - Little to no customization on the logic
+    - Working with standard data structures
