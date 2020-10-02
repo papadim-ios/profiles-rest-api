@@ -1,1 +1,12 @@
 ssh ubuntu@ec2-18-222-231-138.us-east-2.compute.amazonaws.com
+
+Project dir on AWS ubuntu server:
+/usr/local/apps/profiles-rest-api/
+
+Update project with the GitHub latest changes:
+sudo sh ./deploy/update.sh  
+
+Superuser:
+(On project dir)
+sudo env/bin/python manage.py createsuperuser
+email-name-ba
