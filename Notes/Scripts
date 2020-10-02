@@ -1,1 +1,4 @@
 chmod +x deploy/*.sh    
+
+Into Ubuntu AWS server:
+curl -sL https://raw.githubusercontent.com/papadim-ios/profiles-rest-api/master/deploy/setup.sh | sudo bash -
